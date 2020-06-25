@@ -21,13 +21,13 @@ $(document).ready(function(){
             $(elementSelected).removeClass('green');
             $(elementSelected).removeClass('yellow');
             $(elementSelected).addClass('yellow');
-            $(elementSelected).children('p').text(numeroCasuale);
+            $(elementSelected).children('.text').text(numeroCasuale);
             console.log(elementSelected);
           } else if (numeroCasuale > 5){
             $(elementSelected).removeClass('green');
             $(elementSelected).removeClass('yellow');
             $(elementSelected).addClass('green');
-            $(elementSelected).children('p').text(numeroCasuale);
+            $(elementSelected).children('.text').text(numeroCasuale);
             console.log(elementSelected);
           }
         },
