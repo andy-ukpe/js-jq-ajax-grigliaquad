@@ -28,5 +28,5 @@ body{
   height: 360px;
   width: 360px;
   display: flex;
-  flex-wrap: wrap
+  flex-wrap: wrap;
 }
